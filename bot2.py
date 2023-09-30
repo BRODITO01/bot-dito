@@ -16,7 +16,7 @@ async def hello(ctx):
 
 @bot.command()
 async def minimal(ctx):
-    await ctx.send(f'Hi! I am a {bot.user} , minimal hari sabtu minggu libur bos anjay!')
+    await ctx.send(f'Hi! I am a {bot.user} , minimal hari sabtu minggu libur bos anjay mabar!')
 
 @bot.command()
 async def heh(ctx, count_heh = 5):
