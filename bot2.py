@@ -22,4 +22,8 @@ async def minimal(ctx):
 async def heh(ctx, count_heh = 5):
     await ctx.send("he" * count_heh)
 
+@bot.command()
+async def heh(ctx, count_heh = 5):
+    await ctx.send("he gak bahaya ta" * count_heh)
+
 bot.run("MTE1NTA2Mzk1NzUyNzIwNzk3Ng.GxGTp5.UTWz6xcYukg9qcZlYulATGJgscjNp7leJkKO_4")
